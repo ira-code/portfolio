@@ -1,5 +1,8 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/book_list_test.dart';
 import 'package:portfolio/main_modal.dart';
+import 'package:portfolio/next_page.dart';
 import 'package:provider/provider.dart';
 
 
@@ -9,6 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Firebase.initializeApp();
     return MaterialApp(
       title: 'Flutter Demo',
       home: ChangeNotifierProvider<MainModel>(
@@ -31,7 +35,10 @@ class MyApp extends StatelessWidget {
                     RaisedButton(
                       child: Text('ボタン'),
                       onPressed: (){
-                        model.changestock();
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => BookList()),
+                        );
                       },
                     ),
                   ],
@@ -39,7 +46,6 @@ class MyApp extends StatelessWidget {
               );
             }
           ),
-
         ),
       ),
     );

@@ -11,9 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.0
   provider: ^5.0.0
+  firebase_core: ^1.1.0
+  cloud_firestore: ^1.0.7
+  firebase_analytics: ^8.0.2
+  firebase_auth: ^1.1.2
 
 dev_dependencies:
   flutter_test:

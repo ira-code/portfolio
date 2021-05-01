@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "193446571709",
+    "project_id": "portfolio-app-7a689",
+    "storage_bucket": "portfolio-app-7a689.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193446571709:android:3cc0b185808993de4851d4",
+        "android_client_info": {
+          "package_name": "net.kobasay.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193446571709-cvhsn4lmje8b3i76h188tdmsdank6o8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ_YlmSQwNFnMAH8FyMiePRbk5hphAUz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193446571709-cvhsn4lmje8b3i76h188tdmsdank6o8c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "193446571709-jkgvkg1bmucgpgasbu4tmlts9935b9vl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.kobasay.portfolio"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
